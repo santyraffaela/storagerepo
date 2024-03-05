@@ -13,7 +13,7 @@
                 std::vector<std::string> indexStrings = Utility::String::split(indexTuple, '/');
                 if(indexStrings.size() > 3) {
                     Error() << "Trade::ObjImporter::mesh(): invalid index data";
-                    return Containers::NullOpt;
+                    return Containers::NullOpt;//hello everyone
                 }
 
                 Vector3ui index;
