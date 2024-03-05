@@ -4,7 +4,7 @@
                     return Containers::NullOpt;
                 } else if(indexTuples.size() != 3) {
                     Error() << "Trade::ObjImporter::mesh(): polygons are not supported";
-                    return Containers::NullOpt;
+                    return Containers::NullOpt;//good
                 }
 
                 primitive = MeshPrimitive::Triangles;
