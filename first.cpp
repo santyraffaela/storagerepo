@@ -25,3 +25,4 @@
     if(textureCoordinates.isEmpty() != (textureCoordinateIndexCount == 0)) {
         Error() << "Trade::ObjImporter::mesh(): incomplete texture coordinate data";
         return Containers::NullOpt;
+//amogus
